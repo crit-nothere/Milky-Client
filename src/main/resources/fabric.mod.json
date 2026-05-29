@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "milkyway",
+  "version": "${version}",
+  "name": "MilkyWay Client",
+  "description": "A sleek premium utility client with night sky theme",
+  "authors": ["MilkyWay"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.milkyway.client.MilkyWayClient"
+    ]
+  },
+  "mixins": [
+    "milkyway.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
